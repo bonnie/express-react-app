@@ -1,0 +1,23 @@
+{
+  "name": "express-react-app",
+  "version": "1.0.0",
+  "author": "Bonnie Schulkin",
+  "scripts": {
+    "preinstall": "cp /Users/bonnie/.eslintrc .",
+    "test": "export NODE_ENV=test && mocha",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "ajv": "^5.2.2",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0"
+  },
+  "description": "code from tutorial: https://daveceddia.com/create-react-app-express-production/",
+  "dependencies": {
+    "express": "^4.16.2",
+    "password-generator": "^2.2.0"
+  }
+}
